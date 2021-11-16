@@ -1,3 +1,4 @@
-function cutCube(volume, n) {
-  return !(Math.cbrt(n) % 1) && !(Math.cbrt(volume / n) % 1);
+function index(array, n) {
+  //your code here
+  return array[n] ** n || -1;
 }
